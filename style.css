@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+}
+.chicken{
+    margin-left: 7rem;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+}
+.nav-list{
+    margin-right: 8rem;
+}
+.nav-link{
+    color: white;
+}
+.fa{
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.fa-facebook{
+    padding: 10px 14px;
+}
+.grill{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.pic1{
+    width: 100%;
+}
+.sec-1{
+    background-color: black;
+}
+.about{
+    letter-spacing: 1px;
+}
+.btn-learn{
+    border-radius: 5px;
+}
+.row-2 img{
+    width: 100%;    
+}
+.sec-3{
+    background-color: black;
+}
+.book{
+    background-color: black;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+.foot{
+    background-color: black;
+}
+@media(max-width: 576px){
+    .chicken{
+        margin-left: 0;
+        font-size: 17px;
+    }
+    .grill{
+        margin-top: -30px;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .grill-p{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .pic1{
+        margin-bottom: -27px;
+    }
+    .about{
+        margin-top: -3rem;
+    }
+    .about-p{
+        letter-spacing: 0;
+        margin: 0 10px;
+    }
+    .btn-learn{
+        font-size: 15px;
+    }
+    .learn{
+        margin-bottom: -30px;
+    }
+    .row-2{
+        margin-top: -25px;
+    }
+    .row-2 img{
+        margin-bottom: 13px;
+    }
+    .sec-3{
+        margin-top: -3rem;
+    }
+    .reserve{
+        margin-top: -2.5rem;
+    }
+    .form{
+        margin-bottom: -30px;
+    }
+    .book{
+        margin-bottom: -2rem;
+    }
+    .ft1{
+        text-align: center;
+    }
+    .ft-chicken{
+        margin-top: -30px !important;
+    }
+    .ft1 h5{
+        margin-top: 10px;
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .ft1 p{
+        margin-top: -10px;
+    }
+    .paystack{
+        margin-top: -30px;
+        text-align: center;
+        margin-bottom: -5rem;
+    }
+    .pay{
+        width: 150px;
+    }
+    .fa-facebook{
+        margin-left: 25px;
+    }
+}
